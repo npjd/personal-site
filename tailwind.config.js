@@ -10,11 +10,17 @@ module.exports = {
         navyblue: {
           DEFAULT: "#2ED7E3",
         },
+        background:{
+          DEFAULT: "#252935"
+        },
+        navbar:{
+          DEFAULT:"#050A22"
+        }
       },
       'animation': {
-        "gradient-x": "gradient-x 15s ease infinite",
-        "gradient-y": "gradient-y 15s ease infinite",
-        "gradient-xy": "gradient-xy 15s ease infinite",
+        "gradient-x": "gradient-x 3s ease infinite",
+        "gradient-y": "gradient-y 2s ease infinite",
+        "gradient-xy": "gradient-xy 3s ease infinite",
       },
       'keyframes': {
         "gradient-y": {
