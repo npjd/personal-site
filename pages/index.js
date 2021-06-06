@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import Typical from 'react-typical'
 
 export default function Home() {
   return (
@@ -10,14 +10,29 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="absolute w-full h-full bg-background">
-        <div className="flex items-center justify-left ml-28 h-64">
-          <h1 className="text-9xl font-extrabold text-white mt-64">
+        <div className="flex flex-col justify-left ml-28 h-64  mt-24">
+          <h1 className="text-9xl font-extrabold text-white">
             Hey, I'm <br></br>
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-navyblue to-skyblue animate-gradient-xy font-black text-fat" >
-              NIMA
+              NIMA!
             </span>
           </h1>
-          <h2>I Enjoy</h2>
+          <h2 className="text-4xl text-white font-semibold">I ENJOY{' '}
+            <Typical className="bg-clip-text text-transparent bg-gradient-to-r from-navyblue to-skyblue animate-gradient-xy"
+              loop={Infinity}
+              wrapper="b"
+              steps={[
+                'WEB & APP DEVELOPMENT',
+                4000,
+                'INVESTING',
+                4000,
+                'STARTUPS',
+                4000,
+                'WRITING & PSYCHOLOGY',
+                4000
+              ]}
+            />
+          </h2>
         </div>
       </div>
       
