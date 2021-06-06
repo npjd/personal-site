@@ -17,8 +17,10 @@ export default function Home() {
               NIMA
             </span>
           </h1>
+          <h2>I Enjoy</h2>
         </div>
       </div>
+      
     </div>
   );
 }
