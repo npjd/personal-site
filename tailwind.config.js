@@ -10,19 +10,19 @@ module.exports = {
         navyblue: {
           DEFAULT: "#2ED7E3",
         },
-        background:{
-          DEFAULT: "#252935"
+        background: {
+          DEFAULT: "#252935",
         },
-        navbar:{
-          DEFAULT:"#050A22"
-        }
+        navbar: {
+          DEFAULT: "#050A22",
+        },
       },
-      'animation': {
+      animation: {
         "gradient-x": "gradient-x 3s ease infinite",
         "gradient-y": "gradient-y 2s ease infinite",
-        "gradient-xy": "gradient-xy 3s ease infinite",
+        "gradient-xy": "gradient-xy 7s ease infinite",
       },
-      'keyframes': {
+      keyframes: {
         "gradient-y": {
           "0%, 100%": {
             "background-size": "400% 400%",
@@ -53,6 +53,9 @@ module.exports = {
             "background-position": "right center",
           },
         },
+      },
+      fontSize: {
+        'fat':'15rem'
       },
     },
   },
