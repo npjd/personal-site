@@ -33,9 +33,6 @@ export default function Home() {
               ]}
             />
           </h2>
-          <section className="relative w-full h-screen overflow-hidden">
-            <div className="absolute -bottom-0 -top-0 w-full"></div>
-          </section>
         </div>
       </div>
     </div>
