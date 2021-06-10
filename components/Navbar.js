@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from 'next/link'
 import { Transition } from "@headlessui/react";
 
 const Navbar = () => {
@@ -10,23 +11,31 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <h1 className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-skyblue to-navyblue text-4xl animate-gradient-x">
-                  NIMA
-                </h1>
+                <Link href="/">
+                  <a className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-skyblue to-navyblue text-4xl animate-gradient-x">
+                    NIMA
+                  </a>
+                </Link>
               </div>
               <div className="hidden md:block">
                 <div className="ml-14 flex items-baseline space-x-8">
-                  <a className="font-bold text-white px-3 py-2 rounded-md text-lg transform transition duration-500 hover:scale-150">
-                    About
-                  </a>
+                  <Link href="/">
+                    <a className="font-bold text-white px-3 py-2 rounded-md text-lg transform transition duration-500 hover:scale-150">
+                      About
+                    </a>
+                  </Link>
 
-                  <a className="font-bold  text-white px-3 py-2 rounded-md text-lg duration-500 hover:bg-gray-700">
-                    Portfolio
-                  </a>
+                  <Link href="/">
+                    <a className="font-bold  text-white px-3 py-2 rounded-md text-lg duration-500 hover:bg-gray-700">
+                      Portfolio
+                    </a>
+                  </Link>
 
-                  <a className="font-bold text-white px-3 py-2 rounded-md text-lg duration-500 hover:from-skyblue hover:to-navyblue">
-                    Blog
-                  </a>
+                  <Link href="/blog">
+                    <a className="font-bold  text-white px-3 py-2 rounded-md text-lg duration-500 hover:bg-gray-700">
+                      Blog
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -89,40 +98,27 @@ const Navbar = () => {
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a
-                  href="#"
-                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Dashboard
-                </a>
-
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Team
-                </a>
-
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Projects
-                </a>
-
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Calendar
-                </a>
-
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Reports
-                </a>
+                <Link href="/">
+                  <a
+                    className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    About
+                  </a>
+                </Link>
+                <Link href="/">
+                  <a
+                    className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    Portfolio
+                  </a>
+                </Link>
+                <Link href="/blog">
+                  <a
+                    className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    Blog
+                  </a>
+                </Link>
               </div>
             </div>
           )}
