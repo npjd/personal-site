@@ -20,9 +20,9 @@ export default function BlogPost({ title, date, content }) {
             {format(parseISO(date), "MMMM do, uuu")}
           </h3>
         </div>
-        <div className="prose text-white">
+        <article className="prose prose-xl">
           <MDXRemote {...content} />
-        </div>
+        </article>
       </main>
     </div>
   );

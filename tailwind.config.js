@@ -1,8 +1,34 @@
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            color: '#FFFFFF',
+            a: {
+              color: '#3182ce',
+              '&:hover': {
+                color: '#2c5282',
+              },
+            },
+            h1:{
+              color:'#FFFFFF'
+            },
+            h2:{
+              color:'#FFFFFF'
+            },
+            h3: {
+              color:'#FFFFFF'
+            },
+            strong: {
+              color:'#FFFFFF',
+              fontWeight: 900
+            }
+          },
+        },
+      },
       colors: {
         skyblue: {
           DEFAULT: "#1687F3",
@@ -55,14 +81,12 @@ module.exports = {
         },
       },
       fontSize: {
-        'fat':'15rem'
+        fat: "15rem",
       },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [
-    require('@tailwindcss/typography')
-  ],
+  plugins: [require("@tailwindcss/typography")],
 };
