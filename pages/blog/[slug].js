@@ -13,7 +13,7 @@ export default function BlogPost({ title, date, content }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="mx-24">
+      <main className="mx-4 md:mx-24">
         <div className="text-center p-24">
           <h2 className="font-bold text-5xl md:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy">{title}</h2>
           <h3 className="text-gray-200">
