@@ -1,6 +1,7 @@
 ---
 title: My first post!
 date: 2021-02-14T19:05:27.220Z
+description: This is my first post and a test using MD with Next.js
 ---
 
 Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform.
