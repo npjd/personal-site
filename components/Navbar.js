@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <Link href="/">
-                  <a className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-skyblue to-navyblue text-4xl hover:">
+                  <a className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-skyblue to-navyblue text-4xl">
                     NIMA
                   </a>
                 </Link>
