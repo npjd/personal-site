@@ -13,11 +13,13 @@ export default function BlogPost({ title, date, content }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h2 className="font-bold text-3xl">{title}</h2>
-        <h3 className="text-gray-500">
-          {format(parseISO(date), "MMMM do, uuu")}
-        </h3>
+      <main className="mx-28">
+        <div className="text-center p-24">
+          <h2 className="font-bold text-5xl">{title}</h2>
+          <h3 className="text-gray-500">
+            {format(parseISO(date), "MMMM do, uuu")}
+          </h3>
+        </div>
         <div className="prose">
           <MDXRemote {...content} />
         </div>
