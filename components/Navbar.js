@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Link from 'next/link'
+import Link from "next/link";
 import { Transition } from "@headlessui/react";
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <Link href="/">
-                  <a className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-skyblue to-navyblue text-4xl animate-gradient-x">
+                  <a className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-skyblue to-navyblue text-4xl hover:">
                     NIMA
                   </a>
                 </Link>
@@ -20,7 +20,7 @@ const Navbar = () => {
               <div className="hidden md:block">
                 <div className="ml-14 flex items-baseline space-x-8">
                   <Link href="/">
-                    <a className="font-bold text-white px-3 py-2 rounded-md text-lg transform transition duration-500 hover:scale-150">
+                    <a className="font-bold  text-white px-3 py-2 rounded-md text-lg duration-500 hover:bg-gray-700">
                       About
                     </a>
                   </Link>
@@ -99,23 +99,17 @@ const Navbar = () => {
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <Link href="/">
-                  <a
-                    className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
-                  >
+                  <a className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">
                     About
                   </a>
                 </Link>
                 <Link href="/">
-                  <a
-                    className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
-                  >
+                  <a className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">
                     Portfolio
                   </a>
                 </Link>
                 <Link href="/blog">
-                  <a
-                    className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
-                  >
+                  <a className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">
                     Blog
                   </a>
                 </Link>
