@@ -1,6 +1,7 @@
 import Head from "next/head";
 import wavestyles from "../styles/waves.module.css"
 import Typical from "react-typical";
+import Footer from "../components/Footer"
 
 export default function Home() {
   return (
@@ -39,7 +40,7 @@ export default function Home() {
           <div class={wavestyles.wave}></div>
           <div class={wavestyles.wave}></div>
         </div>
-      </div>      
+      </div> 
     </div>
   );
 }
