@@ -6,7 +6,7 @@ export default function SpotifyPlaying() {
   const { data } = useSWR("/api/spotify", fetcher);
 
   return (
-    <div>
+    <div className="mx-10 hidden md:block px-3 py-1 rounded-md duration-500 hover:bg-gray-700">
       <div className="inline-flex flex-col items-center sm:flex-row w-full max-w-full truncate">
         {data?.songUrl ? (
           <div className="flex flex-auto items-center">
@@ -21,14 +21,14 @@ export default function SpotifyPlaying() {
             </a>            
           </div>
         ) : (
-          <p className="text-gray-800 dark:text-gray-200 font-medium">
+          <p className="text-gray-800 font-medium">
             Not Playing
           </p>
         )}
-        <span className="mx-2 text-gray-500 dark:text-gray-300 hidden sm:block">
+        <span className="mx-2 text-gray-500  hidden sm:block">
           {" – "}
         </span>
-        <p className="text-gray-500 dark:text-gray-300 max-w-max truncate">
+        <p className="text-gray-400  max-w-max truncate">
           {data?.artist ?? "Spotify"}
         </p>
       </div>

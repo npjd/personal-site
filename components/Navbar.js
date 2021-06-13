@@ -38,8 +38,8 @@ const Navbar = () => {
                     </a>
                   </Link>                  
                 </div>
-              </div>
-              <SpotifyPlaying />
+              </div>              
+              <SpotifyPlaying />              
             </div>
             <div className="-mr-2 flex md:hidden">
               <button
