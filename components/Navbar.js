@@ -20,7 +20,7 @@ const Navbar = () => {
               </div>
               <div className="hidden md:block">
                 <div className="ml-14 flex items-baseline space-x-8">
-                  <Link href="/">
+                  <Link href="/about">
                     <a className="font-bold  text-white px-3 py-2 rounded-md text-lg duration-500 hover:bg-gray-700">
                       About
                     </a>
