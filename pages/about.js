@@ -11,15 +11,15 @@ const about = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="absolute w-full h-full bg-background overflow-hidden">
-          <div className="flex flex-col">
-              <h1>About</h1>
-              <div className="flex flex-row">
-                  <div className="flex-shrink-0">
+          <div className="flex flex-col mx-24">
+              <h1 className="text-center md:text-left">About</h1>
+              <div className="flex flex-col md:flex-row">
+                  <div className="flex-shrink-0 mx-auto">
                     <Image src="/profilepic.png" width="64" height="64"></Image>
                   </div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis urna id ipsum pharetra ultricies. Donec bibendum ante id urna luctus, ut faucibus mauris auctor. Phasellus tempor ligula quis ligula tempus tincidunt semper ut leo. Nunc tincidunt convallis tempor. Pellentesque vestibulum tellus sit amet tortor hendrerit viverra. </p>
+                  <p className="text-center md:text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis urna id ipsum pharetra ultricies. Donec bibendum ante id urna luctus, ut faucibus mauris auctor. Phasellus tempor ligula quis ligula tempus tincidunt semper ut leo. Nunc tincidunt convallis tempor. Pellentesque vestibulum tellus sit amet tortor hendrerit viverra. </p>
               </div>
-              <div className="flex flex-row">
+              <div className="flex flex-col md:flex-row">
                   <div className="flex flex-col">
                     <h2>Things I've done</h2>
                     <ul>
