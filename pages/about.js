@@ -14,7 +14,28 @@ const about = () => {
           <div className="flex flex-col">
               <h1>About</h1>
               <div className="flex flex-row">
-                  <Image src="/profilepic.png" width="64" height="64"></Image>
+                  <div className="flex-shrink-0">
+                    <Image src="/profilepic.png" width="64" height="64"></Image>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis urna id ipsum pharetra ultricies. Donec bibendum ante id urna luctus, ut faucibus mauris auctor. Phasellus tempor ligula quis ligula tempus tincidunt semper ut leo. Nunc tincidunt convallis tempor. Pellentesque vestibulum tellus sit amet tortor hendrerit viverra. </p>
+              </div>
+              <div className="flex flex-row">
+                  <div className="flex flex-col">
+                    <h2>Things I've done</h2>
+                    <ul>
+                        <l1>Something</l1>
+                        <l1>Something</l1>
+                        <l1>Something</l1>
+                    </ul>
+                  </div>
+                  <div className="flex flex-col">
+                    <h2>Things I want to do</h2>
+                    <ul>
+                        <l1>Something</l1>
+                        <l1>Something</l1>
+                        <l1>Something</l1>
+                    </ul>
+                  </div>
               </div>
           </div>
       </div>
