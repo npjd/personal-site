@@ -20,21 +20,17 @@ const about = () => {
                   <p className="text-center md:text-left mx-5 text-white text-lg leading-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis urna id ipsum pharetra ultricies. Donec bibendum ante id urna luctus, ut faucibus mauris auctor. Phasellus tempor ligula quis ligula tempus tincidunt semper ut leo. Nunc tincidunt convallis tempor. Pellentesque vestibulum tellus sit amet tortor hendrerit viverra. </p>
               </div>
               <div className="flex flex-col md:flex-row text-white text-lg leading-8">
-                  <div className="flex flex-col">
-                    <h2>Things I've done</h2>
-                    <ul className="list-disc">
-                        <l1>Something</l1>
-                        <l1>Something</l1>
-                        <l1>Something</l1>
-                    </ul>
-                  </div>
-                  <div>
-                    <h2>Things I want to do</h2>
-                    <ul className="list-disc">
-                      <l1>Yes</l1>
-                      <l1>No</l1>
-                    </ul>
-                  </div>
+                  <h2>Things I've done</h2>
+                  <ul className="list-disc">
+                      <l1>Something</l1>
+                      <l1>Something</l1>
+                      <l1>Something</l1>
+                  </ul>                  
+                  <h2>Things I want to do</h2>
+                  <ul className="list-disc">
+                    <l1>Yes</l1>
+                    <l1>No</l1>
+                  </ul>
               </div>             
           </div>
       </div>
