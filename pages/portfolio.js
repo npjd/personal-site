@@ -22,7 +22,7 @@ const portfolio = () => {
                 date={element.date}
                 contentStyle={{ background: 'linear-gradient(to right, #1687F3 , #2a4bde)', color: '#fff'}}
                 dateClassName="date"
-                iconStyle={{ background: "#294DDE" }}
+                iconStyle={{ background: "linear-gradient(to right, #1687F3 , #2a4bde)" }}
               >
                 <h3 className="vertical-timeline-element-title font-extrabold">
                   {element.title}
@@ -32,6 +32,9 @@ const portfolio = () => {
             );
           })}
         </VerticalTimeline>
+
+        <h1 className="py-24 text-center mx-auto font-black text-6xl md:text-8xl bg-clip-text text-transparent bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy">Projects</h1>
+                
       </div>
     </div>
   );
