@@ -26,7 +26,7 @@ const Navbar = () => {
                     </a>
                   </Link>
 
-                  <Link href="/">
+                  <Link href="/portfolio">
                     <a className="font-bold  text-white px-3 py-2 rounded-md text-lg duration-500 hover:bg-gray-700">
                       Portfolio
                     </a>
@@ -100,12 +100,12 @@ const Navbar = () => {
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <Link href="/">
+                <Link href="/about">
                   <a className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">
                     About
                   </a>
                 </Link>
-                <Link href="/">
+                <Link href="/portfolio">
                   <a className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">
                     Portfolio
                   </a>
