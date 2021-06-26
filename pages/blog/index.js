@@ -12,10 +12,10 @@ export default function Home({ posts }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="mx-24">
-        <h1 className="py-24 text-center font-black text-8xl md:text-fat bg-clip-text text-transparent bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy">Blog</h1>
+      <div className="mx-auto">
+        <h1 className="py-24 text-center font-black text-7xl md:text-fat bg-clip-text text-transparent bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy">Blog</h1>
 
-        <div className="space-y-5 text-white">
+        <div className="space-y-5 text-white mx-10 md:mx-28">
           {posts.map((blog) => (
             <div key={blog.slug}>
               <Link href={`/blog/${blog.slug}`}>
