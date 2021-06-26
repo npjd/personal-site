@@ -11,7 +11,7 @@ const about = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="absolute w-full min-h-screen bg-background">
-          <div className="flex flex-col mx-24">
+          <div className="flex flex-col mx-auto md:mx-24">
               <h1 className="text-center md:text-left bg-clip-text text-transparent bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy font-black text-7xl my-10">About</h1>
               <div className="flex flex-col md:flex-row">
                   <div className="flex-shrink-0 mx-auto">
