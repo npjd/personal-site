@@ -1,12 +1,25 @@
 import React from "react";
-import styles from "../styles/projects.module.css";
+import Tag from "./Tags";
+import Image from 'next/image'
 
-const Project = () => {
+const Project = (props) => {
+  const tagArray = props.tags
+  console.log(tagArray)
+
   return (
-    <div className={styles.container}>
-      <img src="http://lorempixel.com/500/500/" className={styles.image} />
-      <div className={styles.overlay}>
-        <div className={styles.text}>Hello World</div>
+    <div >
+      <div className="flex flex-row">
+        <div>
+          <h1>Project {props.name}</h1>
+          <p>This is the description {props.description}</p>
+          {tagArray.map((value, index) =>{
+            console.log(value)
+            return <Tag text={value} key={index}/>
+          })}
+        </div>
+        <div>
+          <Image src="/profilepic.png" height="128" width="128"/>
+        </div>
       </div>
     </div>
   );

@@ -3,6 +3,8 @@ import Project from "../components/Project";
 
 import timelineElements from "../lib/timelineElements";
 
+import projects from "../lib/projectsLib";
+
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -47,12 +49,19 @@ const portfolio = () => {
         <h1 className="py-24 text-center mx-auto font-black text-6xl md:text-8xl bg-clip-text text-transparent bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy">
           Projects
         </h1>
-        <div class="flex flex-wrap overflow-hidden xl:-mx-3">
-          <div class="w-full overflow-hidden xl:my-3 xl:px-3 xl:w-1/2"> <Project/> </div>
-          <div class="w-full overflow-hidden xl:my-3 xl:px-3 xl:w-1/2"> <Project/> </div>
-
+        <div>
+          {projects.map((project) => {
+            return (
+              <div className="w-9/12 mx-auto">
+                <Project
+                  tags={project.tags}
+                  name={project.name}
+                  description={project.description}
+                />
+              </div>
+            );
+          })}
         </div>
-
       </div>
     </div>
   );
