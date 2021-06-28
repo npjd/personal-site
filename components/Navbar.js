@@ -36,10 +36,10 @@ const Navbar = () => {
                     <a className="font-bold  text-white px-3 py-2 rounded-md text-lg duration-500 hover:bg-gray-700">
                       Blog
                     </a>
-                  </Link>                  
+                  </Link>
+                  <SpotifyPlaying />
                 </div>
-              </div>              
-              <SpotifyPlaying />              
+              </div>
             </div>
             <div className="-mr-2 flex md:hidden">
               <button
