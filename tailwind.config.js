@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      // fontFamily: {
+      //   custom: ["Custom", "sans-serif"]
+      // },
       typography: {
         DEFAULT: {
           css: {

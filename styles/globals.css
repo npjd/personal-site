@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+}
+
+/* @font-face {
+  font-family: "Custom";
+  src: url("/OpenSans.ttf");
+}
+
+body {
+  @apply font-custom;
+} */
