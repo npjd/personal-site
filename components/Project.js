@@ -8,17 +8,19 @@ const Project = (props) => {
 
   return (
     <div >
-      <div className="flex flex-row space-x-8">
-        <div className="mr-48">
+      <div className="flex flex-col md:flex-row space-x-8">
+        <div className="md:mr-48 mb-3">
           <h1 className="text-white text-5xl font-bold mb-8">Project {props.name}</h1>
           <p className="text-white text-lg font-light mb-5">This is the description {props.description}</p>
-          {tagArray.map((value, index) =>{
-            console.log(value)
-            return <Tag text={value} key={index}/>
-          })}
+          <div className="space-x-1">
+            {tagArray.map((value, index) =>{
+              console.log(value)
+              return <Tag text={value} key={index}/>
+            })}
+          </div>
         </div>
         <div>
-          <Image src="/profilepic.png" height="128" width="128"/>
+          <Image src="/profilepic.png" height="428" width="668"/>
         </div>
       </div>
     </div>
