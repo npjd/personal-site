@@ -30,17 +30,34 @@ const about = () => {
             <div className="flex-shrink-0 mx-auto">
               <Image src="/profilepic.png" width="256" height="256"></Image>
             </div>
-            <p className="text-center md:text-left mx-5 text-white text-lg leading-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vestibulum sagittis urna id ipsum pharetra ultricies. Donec
-              bibendum ante id urna luctus, ut faucibus mauris auctor. Phasellus
-              tempor ligula quis ligula tempus tincidunt semper ut leo. Nunc
-              tincidunt convallis tempor. Pellentesque vestibulum tellus sit
-              amet tortor hendrerit viverra.{" "}
-            </p>
-            <div className="flex flex-col">
+            <div className="text-center md:text-left mx-5 text-white text-lg leading-8">
+              <p >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum sagittis urna id ipsum pharetra ultricies. Donec
+                bibendum ante id urna luctus, ut faucibus mauris auctor. Phasellus
+                tempor ligula quis ligula tempus tincidunt semper ut leo. Nunc
+                tincidunt convallis tempor. Pellentesque vestibulum tellus sit
+                amet tortor hendrerit viverra.{" "}
+              </p>
+              <h2 className="text-2xl mt-10 font-semibold">Find me here 😉</h2>
+              <div className="flex flex-row mt-4">
+                <div className="mx-2 px-2 pt-1 rounded-xl duration-500 hover:bg-gray-50">
+                  <Image src="/socials/github.png" height="64" width="64"/>
+                </div>
+                <div className="mx-2 px-2 pt-1 rounded-xl duration-500 hover:bg-gray-50">
+                  <Image src="/socials/instagram.png" height="64" width="64"/>
+                </div>
+                <div className="mx-2 px-2 pt-1 rounded-xl duration-500 hover:bg-gray-50">
+                  <Image src="/socials/medium.png" height="64" width="64"/>
+                </div>
+                <div className="mx-2 px-2 pt-1 rounded-xl duration-500 hover:bg-gray-50">
+                  <Image src="/socials/twitter.png" height="64" width="64"/>
+                </div>
 
+              </div>
             </div>
+
+            
           </div>
           <div className="flex flex-col md:flex-row mx-8 text-white text-lg leading-8 mt-11 md:space-x-24">
             <div>
