@@ -1,8 +1,19 @@
 import Head from "next/head";
-import Image from 'next/image'
+import Image from "next/image";
 
 const about = () => {
-    
+  const done = [
+    "i was able to do a lot of cool thins",
+    "test",
+    "more",
+    "more",
+    "things",
+    "test",
+    "more",
+    "more",
+  ];
+  const wantToDo = ["things", "test", "more", "more"];
+
   return (
     <div>
       <Head>
@@ -11,28 +22,47 @@ const about = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="absolute w-full min-h-screen bg-background">
-          <div className="flex flex-col mx-auto md:mx-24">
-              <h1 className="text-center md:text-left bg-clip-text text-transparent bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy font-black text-7xl my-10">About</h1>
-              <div className="flex flex-col md:flex-row">
-                  <div className="flex-shrink-0 mx-auto">
-                    <Image src="/profilepic.png" width="256" height="256"></Image>
-                  </div>
-                  <p className="text-center md:text-left mx-5 text-white text-lg leading-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis urna id ipsum pharetra ultricies. Donec bibendum ante id urna luctus, ut faucibus mauris auctor. Phasellus tempor ligula quis ligula tempus tincidunt semper ut leo. Nunc tincidunt convallis tempor. Pellentesque vestibulum tellus sit amet tortor hendrerit viverra. </p>
-              </div>
-              <div className="flex flex-col md:flex-row text-white text-lg leading-8">
-                  <h2>Things I've done</h2>
-                  <ul className="list-disc">
-                      <l1>Something</l1>
-                      <l1>Something</l1>
-                      <l1>Something</l1>
-                  </ul>                  
-                  <h2>Things I want to do</h2>
-                  <ul className="list-disc">
-                    <l1>Yes</l1>
-                    <l1>No</l1>
-                  </ul>
-              </div>             
+        <div className="flex flex-col mx-auto md:mx-24">
+          <h1 className="text-center md:text-left bg-clip-text text-transparent bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy font-black text-7xl my-10">
+            About
+          </h1>
+          <div className="flex flex-col md:flex-row">
+            <div className="flex-shrink-0 mx-auto">
+              <Image src="/profilepic.png" width="256" height="256"></Image>
+            </div>
+            <p className="text-center md:text-left mx-5 text-white text-lg leading-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum sagittis urna id ipsum pharetra ultricies. Donec
+              bibendum ante id urna luctus, ut faucibus mauris auctor. Phasellus
+              tempor ligula quis ligula tempus tincidunt semper ut leo. Nunc
+              tincidunt convallis tempor. Pellentesque vestibulum tellus sit
+              amet tortor hendrerit viverra.{" "}
+            </p>
+            <div className="flex flex-col">
+
+            </div>
           </div>
+          <div className="flex flex-col md:flex-row mx-8 text-white text-lg leading-8 mt-11 md:space-x-24">
+            <div>
+              <h2 className="text-3xl font-medium">Some Things I've Done ✅</h2>
+              <ul className="list-disc list-inside">
+                <li>HELLO</li>
+                <li>HELLO</li>
+                <li>HELLO</li>
+                <li>HELLO</li>
+              </ul>
+            </div>
+            <div>
+              <h2 className="text-3xl font-medium">Some Things I Want To Do 🧩</h2>
+              <ul className="list-disc list-inside">
+                <li>HELLO</li>
+                <li>HELLO</li>
+                <li>HELLO</li>
+                <li>HELLO</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
