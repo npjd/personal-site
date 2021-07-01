@@ -24,11 +24,11 @@ const about = () => {
       <div className="absolute w-full min-h-screen bg-background">
         <div className="flex flex-col mx-auto md:mx-24">
           <h1 className="text-center md:text-left bg-clip-text text-transparent bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy font-black text-7xl my-10">
-            About
+            About Me 👋!
           </h1>
           <div className="flex flex-col md:flex-row">
             <div className="flex-shrink-0 mx-auto">
-              <Image src="/profilepic.png" width="256" height="256"></Image>
+              <Image src="/profilepic.png" width="256" height="320"></Image>
             </div>
             <div className="text-center md:text-left mx-5 text-white text-lg leading-8">
               <p >
@@ -42,16 +42,29 @@ const about = () => {
               <h2 className="text-2xl mt-10 font-semibold">Find me here 😉</h2>
               <div className="flex flex-row mt-4">
                 <div className="mx-2 px-2 pt-1 rounded-xl duration-500 hover:bg-gray-50">
-                  <Image src="/socials/github.png" height="64" width="64"/>
+                  <a href="https://github.com/nimapourjafar">
+                    <Image src="/socials/github.png" height="64" width="64"/>
+                  </a>
                 </div>
                 <div className="mx-2 px-2 pt-1 rounded-xl duration-500 hover:bg-gray-50">
-                  <Image src="/socials/instagram.png" height="64" width="64"/>
+                  <a href="https://www.instagram.com/nima.pourjafar/">
+                    <Image src="/socials/instagram.png" height="64" width="64"/>
+                  </a>
                 </div>
                 <div className="mx-2 px-2 pt-1 rounded-xl duration-500 hover:bg-gray-50">
-                  <Image src="/socials/medium.png" height="64" width="64"/>
+                  <a href="https://nimapourjafar.medium.com/">
+                    <Image src="/socials/medium.png" height="64" width="64"/>
+                  </a>
                 </div>
                 <div className="mx-2 px-2 pt-1 rounded-xl duration-500 hover:bg-gray-50">
-                  <Image src="/socials/twitter.png" height="64" width="64"/>
+                  <a href="https://twitter.com/PourjafarNima">
+                    <Image src="/socials/twitter.png" height="64" width="64"/>
+                  </a>
+                </div>
+                <div className="mx-2 px-2 pt-1 rounded-xl duration-500 hover:bg-gray-50">
+                  <a href="https://www.linkedin.com/in/nima-pourjafar-8719a21a6/">
+                    <Image src="/socials/linkedin.png" height="64" width="64"/>
+                  </a>
                 </div>
 
               </div>

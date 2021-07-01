@@ -19,6 +19,10 @@ const portfolio = () => {
         <h1 className="py-24 text-center mx-auto font-black text-6xl md:text-8xl bg-clip-text text-transparent bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy">
           Portfolio
         </h1>
+        <a href="">
+          <h2 className="w-3/12 py-2 rounded-2xl text-center mx-auto font-black text-xl md:text-3xl bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy duration-500 hover:text-white hover:shadow-xl mb-7">Check out my resume here</h2>
+        </a>
+
         <VerticalTimeline animate={false}>
           {timelineElements.map((element) => {
             return (
