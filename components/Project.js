@@ -19,7 +19,7 @@ const Project = (props) => {
             })}
           </div>
         </div>
-        <div>
+        <div >
           <Image src="/profilepic.png" height="428" width="668"/>
         </div>
       </div>

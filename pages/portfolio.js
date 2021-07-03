@@ -26,7 +26,7 @@ const portfolio = () => {
           Portfolio
         </h1>
         <a href="https://drive.google.com/file/d/1d3gJfaOPk6YVslpFA_pu8VB2Uc8S0kVK/view?usp=sharing">
-          <h2 className="w-3/12 mb-10 py-2 rounded-2xl text-center mx-auto font-black text-xl md:text-3xl bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy duration-500 hover:text-white hover:shadow-xl">Check out my resume here</h2>
+          <h2 className="w-60 mb-10 py-2 rounded-2xl text-center mx-auto font-black text-xl md:text-3xl bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy duration-500 hover:text-white hover:shadow-xl">Check out my resume here</h2>
         </a>
 
         <VerticalTimeline animate={false}>
