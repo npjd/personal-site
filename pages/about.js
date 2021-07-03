@@ -2,17 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 const about = () => {
-  const done = [
-    "i was able to do a lot of cool thins",
-    "test",
-    "more",
-    "more",
-    "things",
-    "test",
-    "more",
-    "more",
-  ];
-  const wantToDo = ["things", "test", "more", "more"];
+
 
   return (
     <div>
