@@ -31,14 +31,10 @@ const about = () => {
               <Image src="/profilepic.png" width="256" height="320"></Image>
             </div>
             <div className="text-center md:text-left mx-5 text-white text-lg leading-8">
-              <p >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum sagittis urna id ipsum pharetra ultricies. Donec
-                bibendum ante id urna luctus, ut faucibus mauris auctor. Phasellus
-                tempor ligula quis ligula tempus tincidunt semper ut leo. Nunc
-                tincidunt convallis tempor. Pellentesque vestibulum tellus sit
-                amet tortor hendrerit viverra.{" "}
+              <p>
+                Hey there, I'm Nima! I live in Toronto, Canada and am currently in high school! I live my life by trying to learn and do things that I think are cool. Some topics I'm interested in and working on are app/web development, investing, psychology, and also startups. 
               </p>
+              <p className="mt-2">Currently, I'm building Send Story Training, Bitperks, and Z Investor (check out my protfolio for more) </p>
               <h2 className="text-2xl mt-10 font-semibold">Find me here 😉</h2>
               <div className="flex flex-row mt-4">
                 <div className="mx-2 px-2 pt-1 rounded-xl duration-500 hover:bg-gray-50">
@@ -76,19 +72,21 @@ const about = () => {
             <div>
               <h2 className="text-3xl font-medium">Some Things I've Done ✅</h2>
               <ul className="list-disc list-inside">
-                <li>HELLO</li>
-                <li>HELLO</li>
-                <li>HELLO</li>
-                <li>HELLO</li>
+                <li>Be me</li>
+                <li>Lead and assisted the development of multiple startups</li>
+                <li>Self-taught myself all the skills I know</li>
+                <li>Won multiple hackathons</li>
+                <li>Scaled one of my projects to Africa with the help of Microsoft and NGOs</li>
+                <li>Build this website!</li>
               </ul>
             </div>
             <div>
               <h2 className="text-3xl font-medium">Some Things I Want To Do 🧩</h2>
               <ul className="list-disc list-inside">
-                <li>HELLO</li>
-                <li>HELLO</li>
-                <li>HELLO</li>
-                <li>HELLO</li>
+                <li>Produce something valuable to others</li>
+                <li>Build something cool (wether it be a platform or a product)</li>
+                <li>Learn more backend development</li>
+                <li>Write and produce better quality content</li>
               </ul>
             </div>
           </div>
