@@ -7,7 +7,7 @@ const Project = (props) => {
   console.log(tagArray)
 
   return (
-    <div >
+    <div className="mb-8" >
       <div className="flex flex-col md:flex-row space-x-8">
         <div className="md:mr-48 mb-3">
           <h1 className="text-white text-5xl font-bold mb-8"> {props.name}</h1>
@@ -19,9 +19,9 @@ const Project = (props) => {
             })}
           </div>
         </div>
-        <div >
+        {/* <div >
           <Image src="/profilepic.png" height="428" width="668"/>
-        </div>
+        </div> */}
       </div>
     </div>
   );
