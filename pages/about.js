@@ -67,7 +67,7 @@ const about = () => {
                 <li>Self-taught myself all the skills I know</li>
                 <li>Won multiple hackathons</li>
                 <li>Scaled one of my projects to Africa with the help of Microsoft and NGOs</li>
-                <li>Build this website!</li>
+                <li>Built this website!</li>
               </ul>
             </div>
             <div>
