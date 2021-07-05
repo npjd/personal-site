@@ -59,7 +59,7 @@ const about = () => {
             
           </div>
           <div className="flex flex-col md:flex-row mx-8 text-white text-lg leading-8 mt-11 md:space-x-24">
-            <div>
+            <div className="mb-5 md:mb-0">
               <h2 className="text-3xl font-medium">Some Things I've Done ✅</h2>
               <ul className="list-disc list-inside">
                 <li>Be me</li>
@@ -70,7 +70,7 @@ const about = () => {
                 <li>Built this website!</li>
               </ul>
             </div>
-            <div>
+            <div className="mb-5 md:mb-0">
               <h2 className="text-3xl font-medium">Some Things I Want To Do 🧩</h2>
               <ul className="list-disc list-inside">
                 <li>Produce something valuable to others</li>
