@@ -74,7 +74,7 @@ const about = () => {
               <h2 className="text-3xl font-medium">Some Things I Want To Do 🧩</h2>
               <ul className="list-disc list-inside">
                 <li>Produce something valuable to others</li>
-                <li>Build something cool (wether it be a platform or a product)</li>
+                <li>Build something cool (whether it be a platform or a product)</li>
                 <li>Learn more backend development</li>
                 <li>Write and produce better quality content</li>
               </ul>
