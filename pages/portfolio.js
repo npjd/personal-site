@@ -65,7 +65,7 @@ const portfolio = () => {
               <div className="w-9/12 mx-auto">
                 <Project
                   tags={project.tags}
-                  name={project.name}
+                  name={project.title}
                   description={project.description}
                 />
               </div>

@@ -10,8 +10,8 @@ const Project = (props) => {
     <div >
       <div className="flex flex-col md:flex-row space-x-8">
         <div className="md:mr-48 mb-3">
-          <h1 className="text-white text-5xl font-bold mb-8">Project {props.name}</h1>
-          <p className="text-white text-lg font-light mb-5">This is the description {props.description}</p>
+          <h1 className="text-white text-5xl font-bold mb-8"> {props.name}</h1>
+          <p className="text-white text-lg font-light mb-5"> {props.description}</p>
           <div className="space-x-1">
             {tagArray.map((value, index) =>{
               console.log(value)
