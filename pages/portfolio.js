@@ -25,11 +25,11 @@ const portfolio = () => {
         <h1 className="py-24 text-center mx-auto font-black text-6xl md:text-8xl bg-clip-text text-transparent bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy">
           Portfolio
         </h1>
-        <a href="https://drive.google.com/file/d/1d3gJfaOPk6YVslpFA_pu8VB2Uc8S0kVK/view?usp=sharing">
-          <h2 className="bg-blue-700 duration-500 hover:bg-blue-800 hover:shadow-xl text-white font-bold py-4 px-4 rounded mx-auto w-56 text-center mb-4">            
-              Click me for my resume!
-          </h2>
-        </a>
+        <div className="bg-blue-700 duration-500 hover:bg-blue-800 hover:shadow-xl text-white font-bold py-4 px-4 rounded mx-auto w-56 text-center mb-4">
+          <a href="https://drive.google.com/file/d/1d3gJfaOPk6YVslpFA_pu8VB2Uc8S0kVK/view?usp=sharing">
+            Click me for my resume!
+          </a>
+        </div>
 
         <VerticalTimeline animate={false}>
           {timelineElements.map((element) => {
