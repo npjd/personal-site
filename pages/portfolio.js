@@ -25,7 +25,7 @@ const portfolio = () => {
         <h1 className="py-24 text-center mx-auto font-black text-6xl md:text-8xl bg-clip-text text-transparent bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy">
           Portfolio
         </h1>
-        <a href="https://drive.google.com/file/d/1d3gJfaOPk6YVslpFA_pu8VB2Uc8S0kVK/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1FFMMmD8zZ2CzBUODC7r-A9PNRw0eXWXt/view?usp=sharing">
           <h2 className="text-2xl bg-blue-600 mx-auto text-center text-white font-bold mb-8 md:text-3xl w-max p-4 rounded duration-500 hover:bg-blue-700 hover:shadow-2xl">Click here for my resume</h2>
         </a>
 
