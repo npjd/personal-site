@@ -13,7 +13,9 @@ export default function Home({ posts }) {
       </Head>
 
       <div className="mx-auto">
-        <h1 className="py-24 text-center font-black text-7xl md:text-fat bg-clip-text text-transparent bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy">Blog</h1>
+        <h1 className="py-24 text-center font-black text-7xl md:text-fat bg-clip-text text-transparent bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy">
+          Blog
+        </h1>
 
         <div className="space-y-5 text-white mx-10 md:mx-28">
           {posts.map((blog) => (
@@ -35,6 +37,7 @@ export default function Home({ posts }) {
 
 export async function getStaticProps({ params }) {
   const allPosts = getPostSlugs();
+  allPosts.sort((a, b) => Date.parse(b.data.date) - Date.parse(a.data.date));
   console.log(allPosts);
   return {
     props: {
@@ -42,7 +45,7 @@ export async function getStaticProps({ params }) {
         date: item.data.date.toISOString(),
         title: item.data.title,
         description: item.data.description,
-        content: item.content,        
+        content: item.content,
         slug: item.slug,
       })),
     },

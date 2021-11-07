@@ -24,6 +24,7 @@ export default function BlogPost({ title, date, content }) {
           <MDXRemote {...content} />
         </article>
       </main>
+      <div className="p-8 bg-background"/>
     </div>
   );
 }
