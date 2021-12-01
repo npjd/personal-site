@@ -11,7 +11,6 @@ export default function BlogPost({ title, date, content }) {
         <title>{title}</title>
         <meta name="description" content={title} />
         <meta property="author" content="Nima Pourjafar" />
-
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

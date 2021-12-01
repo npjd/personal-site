@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Nima Pourjafar</title>
-        <meta name="description" content="Personal Site -" />
+        <meta name="description" content="Personal Site - Nima Pourjafar" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="absolute w-full h-full bg-background overflow-hidden">
