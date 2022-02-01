@@ -62,8 +62,11 @@ const portfolio = () => {
           </VerticalTimeline>
         </div>
 
-        <h1 className="py-24 text-center mx-auto font-black text-6xl md:text-8xl bg-clip-text text-transparent bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy">
+        <h1 className="pt-24 text-center mx-auto font-black text-6xl md:text-8xl bg-clip-text text-transparent bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy">
           Projects
+        </h1>
+        <h1 className="py-8 text-center mx-auto font-black text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-navyblue via-blue-500 to-skyblue animate-gradient-xy">
+          (Click names for more details)
         </h1>
         <div>
           {projects.map((project) => {
@@ -73,6 +76,7 @@ const portfolio = () => {
                   tags={project.tags}
                   name={project.title}
                   description={project.description}
+                  img={project.img}
                 />
               </div>
             );
