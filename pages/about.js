@@ -22,9 +22,9 @@ const about = () => {
             </div>
             <div className="text-center md:text-left mx-5 text-white text-lg leading-8">
               <p>
-                Hey there, I'm Nima! I live in Toronto, Canada and am currently in high school! I live my life by trying to learn and do things that I think are cool. Some topics I'm interested in and working on are app/web development, investing, psychology, and also startups. 
+                Hey there, I'm Nima! I live in Toronto, Canada and am currently in high school! I live my life by trying to learn and do things that I think are cool. Some topics I'm interested in and working on are app/web development, crypto, investing, psychology, and also startups. 
               </p>
-              <p className="mt-2">Currently, I'm building Send Story Training, Bitperks, and Z Investor (check out my portfolio for more) </p>
+              <p className="mt-2">Currently, I'm building Send Story Training, Hack+, Z Investor, and more... 👀 </p>
               <h2 className="text-2xl mt-10 font-semibold">Find me here 😉</h2>
               <div className="flex flex-row mt-4">
                 <div className="mx-2 px-2 pt-1 rounded-xl duration-500 hover:bg-gray-50">
@@ -64,6 +64,7 @@ const about = () => {
               <ul className="list-disc list-inside">
                 <li>Be me</li>
                 <li>Lead and assisted the development of multiple startups</li>
+                <li>Scale products to thousnads of users</li>
                 <li>Self-taught myself all the skills I know</li>
                 <li>Won multiple hackathons</li>
                 <li>Scaled one of my projects to Africa with the help of Microsoft and NGOs</li>
