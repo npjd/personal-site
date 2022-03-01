@@ -64,7 +64,7 @@ const about = () => {
               <ul className="list-disc list-inside">
                 <li>Be me</li>
                 <li>Lead and assisted the development of multiple startups</li>
-                <li>Scale products to thousnads of users</li>
+                <li>Scale products to thousands of users</li>
                 <li>Self-taught myself all the skills I know</li>
                 <li>Won multiple hackathons</li>
                 <li>Scaled one of my projects to Africa with the help of Microsoft and NGOs</li>
