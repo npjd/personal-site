@@ -23,7 +23,13 @@ export default function SpotifyPlaying() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {data.title}
+                {/* truncate the title if it's too ling */}
+                {
+                  data.title.length > 40
+                    ? data.title.substring(0, 40) + "..."
+                    : data.title
+
+                }
               </a>
             </div>
           ) : (
